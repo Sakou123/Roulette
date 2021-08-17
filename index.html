@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet href="assets/css/style.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette délégués</title>
+    <script src="/assets/js/script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>ROULETTE</h1>
+</header>
+<section class="main-content">
+    <div>
+        <div class="immunity_table">
+            <table>
+                <tr>
+                    <td><button id="dylan" onclick="toggleDylan()">Dylan</button></td>
+                    <td><button id="lucas" onclick="toggleLucas()">Lucas</button></td>
+                    <td><button id="alexis" onclick="toggleAlexis()">Alexis</button></td>
+                    <td><button id="florian" onclick="toggleFlorian()">Florian</button></td>
+                </tr>
+                <tr>
+                    <td><button id="lucf" onclick="toggleLucF()">LucF</button></td>
+                    <td><button id="lucv" onclick="toggleLucV()">LucV</button></td>
+                    <td><button id="kevin" onclick="toggleKevin()">Kevin</button></td>
+                    <td><button id="mathilde" onclick="toggleMathilde()">Mathilde</button></td>
+                </tr>
+                <tr>
+                    <td><button id="myriam" onclick="toggleMyriam()">Myriam</button></td>
+                    <td><button id="quentin" onclick="toggleQuentin()">Quentin</button></td>
+                    <td><button id="simon" onclick="toggleSimon()">Simon</button></td>
+                    <td><button id="soufiane" onclick="toggleSoufiane()">Soufiane</button></td>
+                </tr>
+            </table>
+        </div>
+    <span id="candid"><h2>Candidats:</h2><p id="count"></p></span>
+    <p id="candidats"></p>
+    </div>
+    <div class="choice">
+        <div>
+            <button id="btn" onclick="Button()"><span>Roll</span></button>
+        </div>
+        <div id="first">
+            <h3>Délégué:<p id="winner">?????</p></h3>
+            <img id="picture1" src="assets/img/1200px-Anonymous_emblem.svg.png" alt="WINNER">
+        </div>
+        <div id="second">
+            <h3>Suppléant:<p id="winner2">?????</p></h3>
+            <img id="picture2" src="assets/img/1200px-Anonymous_emblem.svg.png" alt="WINNER2">
+        </div>
+    </div>
+</section>
+<footer>
+    
+</footer>
+
+</body>
+</html>
